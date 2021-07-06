@@ -4,6 +4,22 @@ body{
 section{
     margin-bottom: 100px;
 }
+nav{
+    text-align: center;
+    background-color: rgb(71, 67, 67);
+    height: 60px;
+    padding: 1px;
+}
+nav ul a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    
+}
+ nav ul a:hover{
+    background-color: lightgrey;
+}
 h1{
     font-size: 45px;
 }
@@ -36,6 +52,33 @@ span{
 .shop-details{
     display: flex;
 }
-.recepi-item{
+.recipe{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    
+}
+.recipe-item{
     display: flex;
+}
+.recipe-title{
+    width: 50%;
+    margin: 5%;
+    padding: 2%;
+    box-shadow: 10px 10px 30px grey;
+}
+.recipe-title img{
+    width: 90%;
+}
+footer{
+    background-color: rgb(15, 11, 11);
+    text-align: center;
+    height: 220px;   
+    padding-top: 30px;
+}
+footer p{
+    color: white;
+}
+footer h1{
+    color: gray;
 }
