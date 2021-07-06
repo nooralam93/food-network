@@ -1,0 +1,41 @@
+body{
+    font-family: 'Bona Nova', serif;
+}
+section{
+    margin-bottom: 100px;
+}
+h1{
+    font-size: 45px;
+}
+p{
+    font-size: 20px;
+}
+span{
+    color:lightsalmon
+}
+.top-banner{
+    display: flex;
+    
+}
+.half-width{
+    width: 50%;
+    margin-left: 5%;
+    padding: 2%;
+}
+.half-width img{
+    width: 90%;
+}
+.link-btn{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius:7px;
+    padding: 2% 3%;
+    background-image: linear-gradient( 45deg , orange, rgb(253, 37, 9));
+}
+.shop-details{
+    display: flex;
+}
+.recepi-item{
+    display: flex;
+}
